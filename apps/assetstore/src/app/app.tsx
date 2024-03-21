@@ -1,9 +1,7 @@
-import NxWelcome from './nx-welcome';
-
 export function App() {
   return (
     <div>
-      <NxWelcome title="assetstore" />
+      <h1>Assets</h1>
     </div>
   );
 }
