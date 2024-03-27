@@ -5,10 +5,10 @@ import { NavigationItem } from '../NavigationItem';
 
 export const NavigationItemList = () => {
     const navigationItems = [
-        { to: '/', label: 'Explore' },
-        { to: '/', label: 'Assets' },
-        { to: '/', label: 'Jobs' },
-        { to: '/', label: 'Hire Freelancers' }
+        { to: '/explore', label: 'Explore' },
+        { to: '/assets', label: 'Assets' },
+        { to: '/jobs', label: 'Jobs' },
+        { to: '/hire', label: 'Hire Freelancers' }
     ];
 
     return (
