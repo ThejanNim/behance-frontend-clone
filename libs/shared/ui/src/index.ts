@@ -1,1 +1,1 @@
-export * from './lib/ui';
+export { default as TopNavigation } from './lib/organisms/TopNavigation';

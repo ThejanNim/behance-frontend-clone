@@ -17,6 +17,7 @@
     "paths": {
       "@behance-frontend-clone/ui": ["libs/shared/ui/src/index.ts"],
       "assetstore/Module": ["apps/assetstore/src/remote-entry.ts"],
+      "explore/Module": ["apps/explore/src/remote-entry.ts"],
       "jobs/Module": ["apps/jobs/src/remote-entry.ts"]
     }
   },
