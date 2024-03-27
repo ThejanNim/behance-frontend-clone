@@ -12,8 +12,8 @@ export const NavigationItemList = () => {
     ];
 
     return (
-        <ul className="flex items-center gap-6">
-            <li>
+        <ul className="flex items-center h-full gap-6">
+            <li className='flex items-center h-full'>
                 <NavigationItem to="/">
                     <LogoImg title='Behance Logo' className={clsx(
                         'w-20 h-4 fill-inherit'
@@ -21,7 +21,7 @@ export const NavigationItemList = () => {
                 </NavigationItem>
             </li>
             {navigationItems.map(({ to, label }) => (
-                <li key={label}>
+                <li key={label} className='flex items-center h-full hover:border-b-2 hover:border-black'>
                     <NavigationItem to={to}>
                         {label}
                     </NavigationItem>

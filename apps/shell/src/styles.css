@@ -1,4 +1,14 @@
+@import url("https://use.typekit.net/dei0yek.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
+
+.topNav-primary-font {
+    font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.primary-test-font {
+    font-family: "acumin-pro-wide", "Acumin Pro Wide", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
